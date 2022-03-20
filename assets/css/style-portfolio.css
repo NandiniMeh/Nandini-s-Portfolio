@@ -183,37 +183,11 @@ body {
     #header.header-top h1 {
       font-size: 26px;
     }
-  }
-  
-   /* Picture on Home Screen */
-  #header #me {
-    height:600px;
-    width: 600px;
-    margin-right: 5%;
-    margin-top: -10%;
-   }
-  
-  
-   #me p {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    border-radius: 5%;
-   }
-  
-   /* MOBILE */
-  /* For 480 Resolution */  
-  @media only screen   
-  and (min-device-width : 320px)   
-  and (max-device-width : 480px)  
-  { 
-    #me {
-      visibility: hidden;
+
+    h4 {
+      text-align: center;
     }
-  } 
-  
-  
-   
+  }
   
   /*--------------------------------------------------------------
   # Navigation Menu
@@ -379,6 +353,5 @@ top: 0;
       overflow: hidden;
     }
   }
-
 
   
